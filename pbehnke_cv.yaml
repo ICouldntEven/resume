@@ -1,0 +1,117 @@
+---
+cv:
+  name: Patrick Behnke
+  location: Evansville, IN, USA
+  email: behnke.tech.2010@gmail.com
+  phone: "+18126045991"
+  social_networks:
+    - network: LinkedIn
+      username: patrickbehnke42
+    - network: GitHub
+      username: ICouldntEven
+  sections:
+    professional_summary:
+      - bullet: Platform/DevOps Engineer with 6+ years experience, 11+ years experience in IT overall. Automating everything from application deployments to servers to workstations and beyond. Some would say a "Jack of all Trades".
+    professional_experience:
+      - company: OneMain Financial
+        position: Senior Engineer - Platform
+        location: Evansville, IN, USA
+        start_date: 2019-09
+        highlights:
+          - Deployed and Administrated Ansible Automation Platform on OpenShift for 10+ IT Divisions
+          - Deployed and Administrated Hashicorp Vault and Hashicorp Terraform Enterprise
+          - Deployed and Administrated OpenShift to vSphere and Azure
+          - Automated and deployed applications to OpenShift using ArgoCD, Helm, Kustomize, Podman, and more
+          - Automated and supported 1500+ remote branch servers nationwide (CentOS)
+          - Coordinated and Migrated said 1500+ branches to Azure, saving the company millions in infrastructure costs
+          - Automated and supported 3000+ VMs in vSphere and Azure (Red Hat Enterprise Linux/Windows Server)
+          - Developed and Deployed multiple Full Stack Applications in OpenShift in order to optimize business processes
+          - Created a custom data scraping and processing solution from scratch for highly customized and valued metrics
+          - Hosted 50+ Lunch-N-Learn type sessions on Automation and Development with fellow IT and Business team members
+          - Hosted an "Automation Hackathon" with Red Hat and Microsoft vendor prizes and support
+          - Architected custom MCP AI tool system for deep and fast insights on applications and infrasture systems
+          - Pushed an "Automation Mindset" culture across the older IT organization teams in collaboration with upper management
+      - company: OneMain Financial
+        position: System Engineer - Citrix
+        location: Evansville, IN, USA
+        start_date: 2019-03
+        end_date: 2019-09
+        highlights:
+          - Automated Citrix VDI Deployments and Access using Powershell
+          - Created App Layers for dynamic software side-loading in Citrix VDIs
+      - company: OneMain Financial
+        position: IT Support Analyst
+        location: Evansville, IN, USA
+        start_date: 2016-03
+        end_date: 2019-03
+        highlights:
+          - Supported 5000+ branch users and 10000+ corporate users Windows/MacBook workstations and software
+          - Consistantly high numbers of tickets closed month over month with varying difficulty
+          - Assisted Engineering Teams with debugging and fixing Laptop Encryption
+          - Automated software deployments for the Engineering Team using a custom software deployment system using batch, Powershell, and C#
+      - company: OneMain Financial
+        position: PC Technician
+        location: Evansville, IN, USA
+        start_date: 2014-08
+        end_date: 2016-03
+        highlights:
+          - Wiped and set up thousands of Windows laptops and workstations for new hires and replacements
+          - Readied workstations and branch hardware for shipping with FedEX and UPS
+          - Basic Software and Hardware troubleshooting over phone with users
+          - Performed repairs on hundreds of workstations using Dell Certifications
+    technical_skills:
+      - label: Languages
+        details: Python, Java, Golang, JavaScript, Bash, Batch, Powershell, C#, and more
+      - label: Frameworks
+        details: FastAPI, FastMCP, Django, Typer, Quarkus, React, Vue, Angular, Svelte, and more
+      - label: Tools
+        details: Ansible, Git, GitLab CI, GitHub Actions, Podman, Buildah, Skopeo, Docker, Helm, Kustomize, and more
+      - label: Platforms
+        details: Ansible Automation Platform, GitLab, GitHub, Azure, AWS, Terraform Enterprise/Cloud, Hashicorp Vault, OpenShift/Kubernetes, Elasticsearch, OpenSearch, ServiceNow, PostgreSQL, Event Driven Ansible, and more
+    education:
+      - institution: Vincennes University
+        area: Technology
+        degree: BS
+        start_date: 2012-08
+        end_date: 2014-05
+      - institution: Vincennes University
+        area: Network Security and Wireless Specialty
+        degree: AS
+        start_date: 2010-08
+        end_date: 2012-05
+    projects:
+      - label: Deployed and Automated Ansible Automation Platform
+        details: Migrated Ansible Tower and Deployed Ansible Automation Platform on OpenShift and fully automated and scheduled configuration and backups of itself using Ansible and GitHub Actions
+      - label: Developed an Automated Ansible Execution/Decision Environment Builder
+        details: To avoid having users build and deploy their own unique Execution/Decision Environments, used a GitHub Actions Runner on OpenShift to gate/build/deploy them.
+      - label: Architected MCP based AI Assistant for Apps and Infrastructure
+        details: Diagrammed and Presented project proposal for an MCP based AI Assistant for full and fast insights, tying it in with our alert system for fast Root Cause Analysis and Safe, Basic Fixes.
+      - label: Deployed OpenShift on Azure
+        details: Deployed OpenShift on Azure for cloud based scaling capabilities without purchasing additional hardware to achieve the same effect
+      - label: Automated Virtual Machine Creation in vSphere
+        details: Migrated Virtual Machine creation from an old manual system to a fully automated Ansible system using ServiceNow as a front end
+      - label: Migrating Branches to Cloud Services
+        details: Worked with various teams to remove the cost of aging equipment and operating systems in the branches. In addition, this bolstered our security and managability capabilities greatly.
+      - label: Created UI for Workstation and McAfee version monitoring
+        details: Created simple Django website with workstation remoting capabilities to monitor and report on system software and security
+      - label: Automated Meltdown and Spectre BIOS Patch Distribution
+        details: Developed and deployed automated Meltdown and Spectre BIOS patching with rollout monitoring and safeguards
+design:
+  theme: engineeringclassic
+  page:
+    size: us-letter
+    top_margin: "1cm"
+    bottom_margin: "1cm"
+    left_margin: "1cm"
+    right_margin: "1cm"
+    show_last_updated_date: false
+    show_page_numbering: false
+  entries:
+    allow_page_break_in_entries: true
+    allow_page_break_in_sections: false
+    short_second_row: true
+  text:
+    font_family: XCharter
+    font_size: "10pt"
+  links:
+    underline: false

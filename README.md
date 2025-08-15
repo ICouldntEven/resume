@@ -1,2 +1,3 @@
-# resume
-Resume builder
+# Patrick Behnke's CV
+
+Automated CV Builder.
